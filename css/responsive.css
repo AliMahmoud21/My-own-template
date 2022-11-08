@@ -43,17 +43,17 @@
     }
     .landing .text .content h2 {
         line-height: 1.5;
-        font-size: 29px;
+        font-size: 27px;
         font-weight: 600;
     }
     .landing .text .content p {
         line-height: 2;
-        font-size: 16px;
+        font-size: 14px;
         margin: -10px 0;
     }
 }
 /* Responsive Features Section */
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .services .feat-container {
         display: flex;
         flex-direction: column;
@@ -73,6 +73,7 @@
         line-height:1.7;
     }
 }
+
 /* Responsive About Section */
 @media (max-width:767px) {
     .about .about-container .content {
@@ -105,5 +106,50 @@
     .reviews .card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Responsive Bakers Section */
+@media (max-width: 767px) {
+    .bakers .one {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .bakers .one {
+        display: none;
+    }
+    .bakers .swiper {
+        width: 700px;
+    }
+    .bakers .card-box .name-prof .name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .bakers .card-box .name-prof .prof {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+/* Responsive Footer Section */
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+    .footer .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .footer .box .social {
+        justify-content: center;
+    }
+    .footer .box .line {
+        flex-direction: column;
+    }
+    .footer .box .line i {
+        margin-right: 0;
+        margin-bottom: 15px;
     }
 }

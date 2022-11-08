@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,11 +9,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <body>
+    <div class="button"></div>
     <!-- Start crating header section -->
     <div class="header">
         <div class="container">
@@ -41,8 +44,8 @@
                     <li><a href="#footer">contact</a></li>
                 </ul>
             </div>
-            <div class="buttons">
-                <a href="#"><button>Sign In</button></a>
+            <div class="buttons" id="btn">
+                <a href="#"><button>Join Now</button></a>
             </div>
         </div>
     </div>
@@ -158,8 +161,247 @@
     <!-- Start Creating Bakers Section -->
     <div class="bakers" id="bakers">
         <h2 class="main-title">bakers</h2>
-        <div class="container">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake1.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake2.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-half filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake3.webp" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-half filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake4.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake5.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-half filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake6.webp" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake9.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">baker</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake7.jpg" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">Accountant</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-half filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card-box">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="images/bake8.png" alt="img">
+                        </div>
+                        <div class="media-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="name-prof">
+                            <span class="name">someone name</span>
+                            <span class="prof">Accountant</span>
+                        </div>
+                        <div class="ratings">
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star-fill filled"></i>
+                            <i class="bi bi-star filled"></i>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="swiper-button-next one"></div>
+        <div class="swiper-button-prev one"></div>
+        <div class="swiper-pagination one"></div>
     </div>
     <!-- End Creating Bakers Section -->
 
@@ -279,14 +521,6 @@
     </div>
     <!-- End Creating reviews Section -->
 
-    <!-- Start Creating Pricing Section -->
-    <div class="pricing" id="pricing">
-        <h2 class="main-title">pricing</h2>
-        <div class="container">
-        </div>
-    </div>
-    <!-- End Creating Pricing Section -->
-
     <!-- Start Creating About Section -->
     <!-- <div class="about" id="about">
         <h2 class="main-title">about</h2>
@@ -295,7 +529,7 @@
                 <div class="content">
                     <img src="images/about.png" alt="about">
                     <div class="info">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, delectus quod. Similique perferendis praesentium porro dicta nesciunt, illo expedita iste? Mollitia consequuntur, aliquam sit quam enim est obcaecati at ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam asperiores eaque. Ipsa, doloribus. Reprehenderit nemo dicta, exercitationem eos at corporis explicabo, molestias nihil consectetur suscipit cumque enim officiis in?</p>
+                        <p>Lorem ipsum dolor sit amedit consectetur adipisicing elit. Ea, delectus quod. Similique perferendis praesentium porro dicta nesciunt, illo expedita iste? Mollitia consequuntur, aliquam sit quam enim est obcaecati at ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam asperiores eaque. Ipsa, doloribus. Reprehenderit nemo dicta, exercitationem eos at corporis explicabo, molestias nihil consectetur suscipit cumque enim officiis in?</p>
                     </div>
                 </div>
             </div>
@@ -310,6 +544,65 @@
             </div>
         </div> -->
     <!-- End Creating offers Section -->
-    <script src="js/script.js"></script>
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+        <div class="box">
+            <h3>Bakery</h3>
+            <ul class="social">
+            <li>
+                <a href="#" class="facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                </li>
+            </ul>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+            </p>
+        </div>
+        <div class="box">
+            <ul class="links">
+                <li><a href="#">Important Link 1</a></li>
+                <li><a href="#">Important Link 2</a></li>
+                <li><a href="#">Important Link 3</a></li>
+                <li><a href="#">Important Link 4</a></li>
+                <li><a href="#">Important Link 5</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="line">
+                <i class="bi bi-geo-alt-fill"></i>
+            <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+            </div>
+            <div class="line">
+                <i class="bi bi-clock"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00</div>
+            </div>
+            <div class="line">
+                <i class="bi bi-telephone"></i>
+            <div class="info">
+                <span>+20 1098157197</span>
+                <span>+20 1557064948</span>
+            </div>
+            </div>
+        </div>
+        </div>
+        <p class="copyright">All Rights &copy; Reserved</p>
+    </div>
+    <!-- End Footer -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+        
 </body>
 </html>
