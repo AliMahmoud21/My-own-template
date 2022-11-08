@@ -97,7 +97,7 @@ li, a, button {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgba(176, 134, 80, 0.867);
+    background-color: #7d2ae8;
     position: absolute;
     border-radius: 50%;
     top: 50%;
